@@ -1,0 +1,158 @@
+body{
+  font-family: 'Times New Roman', Times, serif;
+ 
+}
+/* about*/
+
+.aboutForm{
+   margin-left: 950px;
+    height: 110px;
+  
+} 
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin:25px 35px;
+    display:inline-block;
+    display: flex;
+}
+
+.wp-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  line-height: 50px;
+  text-align: center;
+  font-weight: 20px;
+  color: #fff;
+
+}
+
+.fa-facebook {
+    background: #3B5998;
+   
+}
+
+.fa-instagram {
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    box-shadow: 0px 3px 10px rgb(0 0 0 / 25%);
+}
+.pForm{
+    margin-top: -70px;
+    margin-left: 125px;
+    inline-size: max-content;
+}
+.aForm{
+    color: black;
+}
+
+/* home */
+.videoHome{
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top:80px;
+    z-index: -1;
+
+}
+.imageHome{
+    height:280px;
+    width:280px;
+    clip-path:ellipse(50% 50%); 
+    margin-left: 45px;
+    margin-top: -130px;
+    box-shadow: 5px 5px 50px 16px  #70522f80;
+    position: relative;
+}
+
+/* nav */
+.logo{
+    height:70px;
+    width:70px;
+    clip-path:ellipse(50% 50%); 
+    border-radius:50%;
+    margin-left: 0px;
+    margin-top: 15px;
+}
+.acceuil{
+    margin-top: 30px;
+    color:rgb(116, 94, 67); 
+    font-size: 18px;
+    
+}
+.acceuil:hover{
+    font-size: 20px;
+    text-decoration: solid;
+    color:rgb(158, 109, 49); 
+}
+
+.log{
+  border: none;
+  background:transparent;
+  color:rgb(116, 94, 67); 
+  padding: 10px;
+  margin-right: 8px;
+  margin-top: 10px;
+  font-size: 18px;
+}
+.log:hover{
+    font-size: 20px;
+    text-decoration: solid;
+    color:rgb(158, 109, 49); 
+}
+
+
+/* CONTENT */
+.first{
+    width:100%;
+    background-color: #d4c47b;
+    
+}
+.ConTent{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.ConTent .textbox {
+    position: relative;
+    max-width: 400px;
+    margin-left: 150px;
+}
+.h1{
+    color: rgb(78, 45, 4);
+    font-size: 4em;
+    line-height: 1.4em; 
+    font-weight: 400;
+    text-align-last: start;
+    margin-left: 100px;
+    top: 100px;
+}
+
+.span {
+    font-size:2.5em;
+    color: rgb(146, 102, 48); 
+    text-align:left;
+    margin-right: -100px;
+}
+p{
+    font-size:1.1em;
+    color: rgb(15, 15, 15); 
+    text-align:right;
+}
+.ConTent .imgBox{
+    width: 500px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 220px;
+}
+.ConTent .imgBox img{
+    background-color: #f5f4f2;
+    position: relative;
+    height: 400px;
+    width: 500px;
+}

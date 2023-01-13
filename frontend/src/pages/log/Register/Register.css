@@ -1,0 +1,108 @@
+.container2 {
+    display: flex;
+    height: 320px;
+    margin-left:70px;
+    margin-top: 50px;
+    width:650px;
+  }
+  #myVideo {
+    position: fixed;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    translate: (-50% -50%);
+    z-index: -1;
+  }
+   #container2 {
+      flex-direction: column;
+      height: 900px;
+      width: 320px;
+    }
+
+.login{
+    font-size: 50px;
+    font-weight: 700;
+    margin: 50px 20px 20px;
+    color:  #8b613e;
+    text-align: center;
+
+}
+.lab2{
+    color: #8b5d3e;
+    display: block;
+    font-size: 16px;
+    height: 16px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+ 
+.left2{
+    background: rgba(255, 255, 255, 0.671);
+    height: calc(100% - 40px);
+    margin-top: 60px;
+    position: relative;
+    width: 50%;
+}
+.right2 {
+    background: #e6e0c4;
+    box-shadow: 5px 5px 50px 16px rgba(20, 12, 0, 0.568);
+    color: #332f2a;
+    height: 450px;
+    position: relative;
+    width: 50%;
+    margin-top: -25px;
+  }
+  #right2 {
+    flex-shrink: 0;
+    height: 100%;
+    width: 100%;
+    max-height: 600px;
+  }
+  #btn2 {
+    color: #8b673e;
+    background-color: transparent;
+    height: 50px;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 18px;
+    margin: 4px 2px;
+    opacity: 2;
+    margin-left: 25px;
+    
+  }
+#btn2:hover{
+  font-size: 20px;
+}
+.hover2 {
+    border: 3px solid;
+    border-image: repeating-linear-gradient(135deg,#8b633e  0 30px) 8;
+    -webkit-mask: 
+      conic-gradient(from 180deg at top 3px right 3px, rgba(0, 0, 0, 0) 90deg,#000 0)
+       var(--_i,200%) 0  /200% var(--_i,8px) border-box no-repeat,
+      conic-gradient(at bottom 3px left  3px,  rgba(0, 0, 0, 0) 90deg,#000 0)
+       0   var(--_i,200%)/var(--_i,8px) 200% border-box no-repeat,
+      linear-gradient(#000 0 0) padding-box no-repeat;
+    transition: .3s, -webkit-mask-position .3s .3s;
+  }
+  .hover2:hover {
+    --_i: 50%;
+    color:#080700  ;
+    transition: .3s, -webkit-mask-size .3s .3s;
+  }
+  #submit2 {
+    color: #9b795d;
+    margin-top: 35px;
+    transition: color 300ms;
+    height: 50px;
+  }
+  #submit2:focus {
+    color: #cca05f;
+  }
+  #submit2:hover  {
+    color: #81431f;
+    font-size: 27px;
+
+  }
